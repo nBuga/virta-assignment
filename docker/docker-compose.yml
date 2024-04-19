@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+
+# Database localhost
+  mysql:
+    build: ./image_setup/mysql
+    hostname: local.mysql
+    container_name: virta.mysql
+    image: mysql
+    expose:
+      - 3306
+    ports:
+      - '${APPLICATION_IP}:33063:3306'
+    environment:
+      - MYSQL_ROOT_HOST=${MYSQL_ROOT_HOST}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+
+# virta project
+  virta:
+      build: ./image_setup/virta
+      hostname: local.virta
+      container_name: virta
+      image: virta
+      links:
+        - mysql
+      volumes:
+        - '${LOCAL_APPS_DIR}/:/var/www/virta:delegated'
+      ports:
+        - '${APPLICATION_IP}:80:80'
+        - '${APPLICATION_IP}:8888:8888'

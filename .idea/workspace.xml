@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f51c714-4552-4d59-afc5-365e14a3ff17" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/learning_bkp/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/learning/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.2.4/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/learning/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/learning/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/learning/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/composer" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/asset-mapper" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/learning/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/learning/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/learning/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/stimulus-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/ux-turbo" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/learning/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/learning/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/learning/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/learning/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/learning/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/learning/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/learning/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/learning/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/learning/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/learning/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/learning/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/learning/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/learning/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/learning/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/learning/vendor/php-amqplib/rabbitmq-bundle" />
+      <path value="$PROJECT_DIR$/learning/vendor/php-amqplib/php-amqplib" />
+      <path value="$PROJECT_DIR$/learning/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/learning/vendor/fzaninotto/faker" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2GevzoHY0imk6KoWcBsqly0L9zT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/nbuga/workspace/virta/virta/assets/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/virta/assets/components" />
+      <recent name="$PROJECT_DIR$/virta/assets/controllers" />
+      <recent name="$PROJECT_DIR$/virta/assets" />
+      <recent name="$PROJECT_DIR$/virta/src/Controller" />
+      <recent name="$PROJECT_DIR$/virta/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/virta/templates/station" />
+      <recent name="$PROJECT_DIR$/virta/templates" />
+      <recent name="$PROJECT_DIR$/learning/src/Service" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f51c714-4552-4d59-afc5-365e14a3ff17" name="Default Changelist" comment="" />
+      <created>1666762129888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666762129888</updated>
+      <workItem from="1666762131349" duration="1412000" />
+      <workItem from="1666765573627" duration="505000" />
+      <workItem from="1666935721827" duration="300000" />
+      <workItem from="1666963059343" duration="594000" />
+      <workItem from="1667327283878" duration="5076000" />
+      <workItem from="1674995134237" duration="3922000" />
+      <workItem from="1675244554713" duration="680000" />
+      <workItem from="1680724019415" duration="158000" />
+      <workItem from="1712238356450" duration="9429000" />
+      <workItem from="1712299720055" duration="14647000" />
+      <workItem from="1712346250280" duration="6684000" />
+      <workItem from="1712572519620" duration="6933000" />
+      <workItem from="1712811227899" duration="4481000" />
+      <workItem from="1712847770923" duration="159000" />
+      <workItem from="1712847930938" duration="17000" />
+      <workItem from="1712849126168" duration="705000" />
+      <workItem from="1712851446260" duration="1017000" />
+      <workItem from="1712949961186" duration="197647000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<VirtualHost *:80>
+  ServerName local.virta
+
+  ## Vhost docroot
+  DocumentRoot "/var/www/virta/public"
+
+  ## Directories, there should at least be a declaration for /var/www/virta/web
+
+  <Directory "/var/www/virta/public">
+    AllowOverride All
+    Require all granted
+    Allow from All
+  </Directory>
+
+  ## Logging
+  ErrorLog "/var/log/apache2/docker.virta-non-ssl_error.log"
+  ServerSignature Off
+  CustomLog "/var/log/apache2/docker.virta-non-ssl_access.log" combined
+  ## Rewrite rules
+  RewriteEngine On
+
+</VirtualHost>
