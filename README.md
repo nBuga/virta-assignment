@@ -20,10 +20,13 @@ Setup instructions for Docker environment
 
 1. Clone project virta-assignment
 (e.g. `` git clone git@github.com:nBuga/virta-assignment.git``)
-2. Run ``docker-compose up --build -d``
-
+2. cd docker 
+3. Run ``docker-compose up --build -d``
+4. RUN ``composer install``
+5. RUN ``bin/console doctrine:migrations:migrate``
+6. RUN ``bin/console doctrine:fixtures:load``
+   1. If we have error on mysql check if the container is still up. Otherwise, RUN ``docker-compose up -d`` to up the mysql container
 - You can configure domain names by editing ``/etc/hosts`` on the host and putting the IP and domain names desired, such as:
-
 ````
 ##
 # Host Database
@@ -36,7 +39,7 @@ Setup instructions for Docker environment
 ::1             localhost
 
 
-10.254.254.225 local.virta.ro virta.mysql
+10.254.254.225 local.virta virta.mysql
 ````
 
 - Run sudo ifconfig lo0 alias 10.254.254.225
