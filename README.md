@@ -22,15 +22,16 @@ Setup instructions for Docker environment
 (e.g. `` git clone git@github.com:nBuga/virta-assignment.git``)
 2. cd docker 
 3. Run ``docker-compose up --build -d``
-4. RUN ``composer install``
-5. RUN ``bin/console doctrine:migrations:migrate``
-6. RUN ``bin/console doctrine:fixtures:load``
-   1. If we have error on mysql check if the container is still up. Otherwise, RUN ``docker-compose up -d`` to up the mysql container
+4. Run ``docker exec -it virta /bin/bash``
+5. Go to ``cd /var/www/virta/``
+6. RUN ``composer install``
+   1. If we have error on mysql check if the MySQL container is still up. Otherwise, RUN ``docker-compose up -d`` again to up the MySQL container
+7. RUN ``bin/console doctrine:migrations:migrate``
+8. RUN ``bin/console doctrine:fixtures:load``
+
 - You can configure domain names by editing ``/etc/hosts`` on the host and putting the IP and domain names desired, such as:
-````
 ##
 # Host Database
-#
 # localhost is used to configure the loopback interface
 # when the system is booting.  Do not change this entry.
 ##
