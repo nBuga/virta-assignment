@@ -28,7 +28,8 @@ Setup instructions for Docker environment
    1. If we have error on mysql check if the MySQL container is still up. Otherwise, RUN ``docker-compose up -d`` again to up the MySQL container
 7. RUN ``bin/console doctrine:migrations:migrate``
 8. RUN ``bin/console doctrine:fixtures:load``
-
+9. RUN ``npm install``
+10. RUN ``npm run build``
 - You can configure domain names by editing ``/etc/hosts`` on the host and putting the IP and domain names desired, such as:
 ##
 # Host Database
@@ -39,8 +40,12 @@ Setup instructions for Docker environment
 255.255.255.255 broadcasthost
 ::1             localhost
 
-
 10.254.254.225 local.virta virta.mysql
 ````
-
 - Run sudo ifconfig lo0 alias 10.254.254.225
+````
+
+For the API Documentation you can see it here:
+http://local.virta/api/doc
+
+![img.png](virta/public/api_documentation.png)
